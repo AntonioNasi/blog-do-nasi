@@ -23,4 +23,31 @@ body .barra-right .ctn-centro{
     margin: 0 auto;
     width: 935px;
     height: 100vh;
+    padding-top: 30px;
+}
+body .barra-right .ctn-centro .cx-header header .h-top{
+    display: flex;
+}
+body .barra-right .ctn-centro .cx-header header .h-top .header-img{
+    width: 40%;
+}
+body .barra-right .ctn-centro .cx-header header .h-top .header-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: solid 5px red;
+}
+body .barra-right .ctn-centro .cx-header header .h-top .header-txt{
+    margin: 0px 0px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    border: solid 1px black;
+}
+body .barra-right .ctn-centro .cx-header header .h-top .header-txt .title h1{
+    font-size: 26px;
+    color: red;
+    font-weight: 900;
 }
