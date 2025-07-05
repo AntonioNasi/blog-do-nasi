@@ -1,3 +1,4 @@
+/* Configurações Globais */
 *{
     margin: 0px;
     padding: 0px;
@@ -8,21 +9,24 @@ body{
     font-family: 'Ubuntu', sans-serif;
     display: flex;
 }
+
+/* Configurações Barra Lateral */
 body .barra-left{
     background-color: red;
     width: 335px;
-    height: 100vh;
 }
+
+/* Configurações área principal */
 body .barra-right{
     width: 100%;
-    height: 100vh;
 }
 body .barra-right .ctn-centro{
     margin: 0 auto;
     width: 935px;
-    height: 100vh;
     padding-top: 30px;
 }
+
+/* Configurações parte de cima do Header */
 body .barra-right .ctn-centro .cx-header header .h-top{
     display: flex;
 }
@@ -35,6 +39,16 @@ body .barra-right .ctn-centro .cx-header header .h-top .header-img img{
     object-fit: cover;
     border-radius: 100%;
     border: solid 5px red;
+
+    animation-name: foto-perfil;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes foto-perfil {
+    0%{transform:scale(100%);}
+    50%{transform:scale(102%);}
+    100%{transform:scale(100%);}
 }
 body .barra-right .ctn-centro .cx-header header .h-top .header-txt{
     margin: 0px 0px 0px 80px;
@@ -83,6 +97,7 @@ body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line3 
     font-size: 20px;
 }
 
+/* Configurações parte de baixo do Header (destaques) */
 body .barra-right .ctn-centro .cx-header header .h-bottom{
     display: flex;
     justify-content: space-between;
@@ -97,6 +112,7 @@ body .barra-right .ctn-centro .cx-header header .h-bottom .destaque div{
     border-radius: 100%;
 }
 
+/* Configurações das prévias do conteúdo */
 .sec-content .content-options{
     display: flex;
     height: 60px;
