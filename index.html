@@ -163,9 +163,13 @@
                           const postData = JSON.parse(data.textContent);
                           container.innerHTML += `
                           <div class="post-preview">
+                                                        
+                            <a href="${postData.link}">
+                              <img src="${postData.image}" alt="${postData.title}">  
+                            </a>
+
                             <h2>${postData.title}</h2>
-                            <img src="${postData.image}" alt="${postData.title}">
-                            <p><a href="${postData.link}">Leia mais</a></p>
+                            
                           </div>
                                     `;
                                   });
