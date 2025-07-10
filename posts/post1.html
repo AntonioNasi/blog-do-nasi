@@ -108,6 +108,7 @@
       $(function () {
         $("#cabecalho").load("../html/cabecalho.html");
         $("#lateral").load("../html/lateral.html");
+        $("#footer2").load("../html/rodape.html");
       });
     </script>
 
@@ -119,54 +120,68 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
 
+    <!--Carrega as fontes EB Garamond e Ubuntu do Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+    <!--Carrega o css da página-->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
 
 </head>
 
 <body>
-    <section class="barra-left">
+  <section class="barra-left">
 
-        <div id="lateral"></div>
+    <div id="lateral"></div>
 
-    </section>
+  </section>
 
-    <section class="barra-right">
-        <div class="ctn-centro">
-            <div class="cx-header">
+  <section class="barra-right">
+    <div class="ctn-centro">
+      <div class="cx-header">
 
-                <header id="cabecalho"></header>
+      <header id="cabecalho"></header>
 
-                <section class="sec-content">
+        <section class="sec-content">
 
-                    <script type="application/json" id="post-data">
-                        {
-                        "title": "Os descaminhos da esquerda brasileira",
-                        "image": "https://pt.org.br/wp-content/uploads/2025/02/lula-ricardostuckert-55.jpg",
-                        "link": "../posts/Outro-post-teste-bem-aqui.html",
-                        "category": "politica"
-                        }
-                    </script>
+          <script type="application/json" id="post-data">
+            {
+              "title": "Ecosocialismo: sobre seu fracasso anunciado",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0F2_foZoolVWopJ7vaBEuX_HxkClAwIsQQA&s",
+              "link": "../posts/post1.html",
+              "category": "educacao"
+            }
+          </script>
 
-                    <article>
+          <article>
 
-                        <h1>Outro post teste bem aqui</h1>
+            <h1>Teste post bem aqui</h1>
 
-                        <figure>
-                            <img src="https://i.natgeofe.com/n/2a832501-483e-422f-985c-0e93757b7d84/6.jpg">
-                        </figure>
+            <figure>
+              <img src="https://assets.tommackie.com/wp-content/uploads/2021/05/25133428/190253-1.jpg">
+            </figure>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quos animi ut dolorem eligendi error soluta quae molestiae. Reprehenderit provident minus quod est fugit consectetur quo nisi in quos doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quos animi ut dolorem eligendi error soluta quae molestiae. Reprehenderit provident minus quod est fugit consectetur quo nisi in quos doloribus.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quos animi ut dolorem eligendi error soluta quae molestiae. Reprehenderit provident minus quod est fugit consectetur quo nisi in quos doloribus.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quos animi ut dolorem eligendi error soluta quae molestiae. Reprehenderit provident minus quod est fugit consectetur quo nisi in quos doloribus.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quos animi ut dolorem eligendi error soluta quae molestiae. Reprehenderit provident minus quod est fugit consectetur quo nisi in quos doloribus.</p>
                         
-                    </article>
+          </article>
                     
-                </section>
-            </div>
-        </div>
-
-        <section class="ctn-footer2">
-            <footer id="footer2"></footer>
         </section>
+        
+      </div>
+    </div>
 
-    </section>
+  <section class="ctn-footer2">
+    <footer id="footer2"></footer>
+  </section>
+
+  </section>
 </body>
 </html>

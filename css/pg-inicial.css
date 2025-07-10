@@ -112,6 +112,13 @@ body .barra-right .ctn-centro .cx-header header .h-bottom .destaque div{
     border-radius: 100%;
     margin: 0 auto;
 }
+body .barra-right .ctn-centro .cx-header header .h-bottom .destaque div img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 body .barra-right .ctn-centro .cx-header header .h-bottom .destaque p{
     text-align: center;
     margin-top: 5px;
@@ -159,4 +166,16 @@ body .barra-right .ctn-centro .cx-header header .h-bottom .destaque p{
     background-color: red;
     font-size: 20px;
     font-weight: 900;
+}
+
+/* Configurações do rodape */
+.ctn-footer2 footer div{
+    height: 140px;
+    border-top: solid 1px rgb(191, 186, 186);
+    margin-top: 60px;
+    padding-top: 50px;
+    background-color: rgb(243, 241, 241);
+}
+.ctn-footer2 footer div p{
+    text-align: center;
 }

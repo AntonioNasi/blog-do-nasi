@@ -1,4 +1,4 @@
-const categoriaDesejada = "educacao";
+const categoriaDesejada = "lukacs";
 
 fetch('/js/posts.json')
   .then(res => res.json())

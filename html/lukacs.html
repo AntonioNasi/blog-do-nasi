@@ -88,7 +88,7 @@
       content="Reflexões classistas sobre o cotidiano"
     />
 
-    <title>Blog do Nasi</title>
+    <title>ComunInsta</title>
 
     <!---------------------------------
             Carrega o fav icone do site
@@ -108,6 +108,7 @@
       $(function () {
         $("#cabecalho").load("../html/cabecalho.html");
         $("#lateral").load("../html/lateral.html");
+        $("#footer2").load("../html/rodape.html");
       });
     </script>
 
@@ -119,47 +120,40 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
 
+    <!--Carrega as fontes EB Garamond e Ubuntu do Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/cat-luk.css">
 
 </head>
-
 <body>
     <section class="barra-left">
 
         <div id="lateral"></div>
 
     </section>
-
     <section class="barra-right">
         <div class="ctn-centro">
             <div class="cx-header">
 
-                <header id="cabecalho"></header>
+              <header id="cabecalho"></header>
 
-                <section class="sec-content">
+              <section class="sec-content">
 
-                    <script type="application/json" id="post-data">
-                        {
-                        "title": "Notas de estudo: Introdução ao capitulo do trabalho",
-                        "image": "https://m.media-amazon.com/images/I/51KX7eZeXNL._UF1000,1000_QL80_.jpg",
-                        "link": "../posts/Mais-outro-post-teste-aqui.html",
-                        "category": "educacao"
-                        }
-                    </script>
-
-                    <article>
-
-                        <h1>Mais outro post teste aqui</h1>
-
-                        <figure>
-                            <img src="https://zenfolio.com/wp-content/uploads/2022/09/main-landscape-idea-photo-1.jpg">
-                        </figure>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quos animi ut dolorem eligendi error soluta quae molestiae. Reprehenderit provident minus quod est fugit consectetur quo nisi in quos doloribus.</p>
-                        
-                    </article>
+                <div class="content-options">
+                  <a href="#"> <strong>Postagens</strong> </a>
+                  <a href="#"> <strong>Vídeos</strong> </a>
+                  <a href="#"> <strong>Outros</strong> </a>
+                </div>
                     
-                </section>
+                <div class="cx-article" id="posts-container">Carregando...</div>
+
+                <script src="/js/lukacs.js"></script>
+                    
+              </section>
             </div>
         </div>
 
