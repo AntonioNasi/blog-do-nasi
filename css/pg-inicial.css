@@ -13,7 +13,34 @@ body{
 /* Configurações Barra Lateral */
 body .barra-left{
     background-color: red;
+    width: 405px;
+}
+body .barra-left .lateral{
+    height: 100vh;
     width: 335px;
+    position: fixed;
+    z-index: 999;
+    padding: 30px 20px;
+}
+body .barra-left .lateral h2{
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+body .barra-left .lateral .lateral-icons a{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+body .barra-left .lateral .lateral-icons a img{
+    width: 30px;
+    filter: invert(100%);
+}
+body .barra-left .lateral .lateral-icons a p{
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* Configurações área principal */
