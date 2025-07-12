@@ -7,11 +7,12 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+}
+body .body-sect{
     display: flex;
 }
-
 /* Configurações Barra Lateral */
-body .barra-left{
+body .body-sect .barra-left{
     background-color: red;
     width: 405px;
 }
@@ -22,45 +23,45 @@ body .barra-left .lateral{
     z-index: 999;
     padding: 30px 20px;
 }
-body .barra-left .lateral h2{
+body .body-sect .barra-left .lateral h2{
     margin-bottom: 50px;
     color: #ffffff;
 }
-body .barra-left .lateral .lateral-icons a{
+body .body-sect .barra-left .lateral .lateral-icons a{
     text-decoration: none;
     color: #ffffff;
     display: flex;
     align-items: center;
     margin-bottom: 26px;
 }
-body .barra-left .lateral .lateral-icons a img{
+body .body-sect .barra-left .lateral .lateral-icons a img{
     width: 30px;
     filter: invert(100%);
 }
-body .barra-left .lateral .lateral-icons a p{
+body .body-sect .barra-left .lateral .lateral-icons a p{
     padding-left: 16px;
     font-size: 16px;
     font-weight: 400;
 }
 
 /* Configurações área principal */
-body .barra-right{
+body .body-sect .barra-right{
     width: 100%;
 }
-body .barra-right .ctn-centro{
+body .body-sect .barra-right .ctn-centro{
     margin: 0 auto;
     width: 935px;
     padding-top: 30px;
 }
 
 /* Configurações parte de cima do Header */
-body .barra-right .ctn-centro .cx-header header .h-top{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top{
     display: flex;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-img{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-img{
     width: 40%;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-img img{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-img img{
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -77,29 +78,29 @@ body .barra-right .ctn-centro .cx-header header .h-top .header-img img{
     50%{transform:scale(102%);}
     100%{transform:scale(100%);}
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt{
     margin: 0px 0px 0px 80px;
     width: 100%;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 .title h1{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 .title h1{
     font-size: 26px;
     color: red;
     font-weight: 900;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 .title h1 a{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 .title h1 a{
     text-decoration: none;
     color: red;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 .buton{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 .buton{
     display: flex;
     gap: 40px;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 .buton button{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 .buton a{
     background-color: red;
     padding: 5px 20px;
     border: unset;
@@ -107,102 +108,107 @@ body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 
     width: 160px;
     font-size: 18px;
     color:white;
-}
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line1 .buton button a{
     text-decoration: none;
-    color: whitesmoke;
+    text-align: center;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line2{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line2{
     display: flex;
     justify-content: space-between;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line2 .count{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line2 .count{
     padding: 35px 0px;
 }
-body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line3 #p-title{
-    margin-bottom: 10px;
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line3 #p-title{
+    margin-bottom: 5px;
     font-size: 20px;
+}
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line3 #p-descricao{
+    margin: 0px 0px 5px 0px;
+}
+body .body-sect .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line3 a{
+    text-decoration: none;
+    margin-right: 5px;
 }
 
 /* Configurações parte de baixo do Header (destaques) */
-body .barra-right .ctn-centro .cx-header header .h-bottom{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-bottom{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 190px;
     border-bottom: solid 1px rgb(206, 202, 202);
 }
-body .barra-right .ctn-centro .cx-header header .h-bottom .destaque{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-bottom .destaque{
     margin-right: 60px;
 }
-body .barra-right .ctn-centro .cx-header header .h-bottom .destaque div{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-bottom .destaque div{
     border: solid 1px red;
     height: 75px;
     width: 75px;
     border-radius: 100%;
     margin: 0 auto;
 }
-body .barra-right .ctn-centro .cx-header header .h-bottom .destaque div img{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-bottom .destaque div img{
     width: 75px;
     height: 75px;
     border-radius: 100%;
     object-fit: cover;
     object-position: center;
 }
-body .barra-right .ctn-centro .cx-header header .h-bottom .destaque p{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-bottom .destaque p{
     text-align: center;
     margin-top: 5px;
 }
-body .barra-right .ctn-centro .cx-header header .h-bottom #adicionar a{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-bottom #adicionar a{
     text-decoration: none;
     color: red;
 }
-body .barra-right .ctn-centro .cx-header header .h-bottom #adicionar a p{
+body .body-sect .barra-right .ctn-centro .cx-header header .h-bottom #adicionar a p{
     font-size: 30px;
     text-align: center;
     margin-top: 18px;
 }
 
 /* Configurações das prévias do conteúdo */
-.sec-content .content-options{
+.body-sect .sec-content .content-options{
     display: flex;
     height: 60px;
     align-items: center;
     justify-content: center;
 }
-.sec-content .content-options a{
+.body-sect .sec-content .content-options a{
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     margin: 0px 50px;
 }
 
-.sec-content .cx-article{
+.body-sect .sec-content .cx-article{
     display: flex;
     flex-direction: row;
     gap: 5px;
     flex-wrap: wrap;
 }
-.sec-content .cx-article .post-preview{
+.body-sect .sec-content .cx-article .post-preview{
     width: 32.6%;
 }
-.sec-content .cx-article .post-preview a{
+.body-sect .sec-content .cx-article .post-preview a{
     text-decoration: none;
     display: block;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
-.sec-content .cx-article .post-preview img{
+.body-sect .sec-content .cx-article .post-preview img{
     width: 100%;
     height: 385.41px;
     object-fit: cover;
     object-position: center;
 }
-.sec-content .cx-article .post-preview img:hover{
+.body-sect .sec-content .cx-article .post-preview img:hover{
     filter:saturate(120%)
 }
-.sec-content .cx-article .post-preview h2{
+.body-sect .sec-content .cx-article .post-preview h2{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -214,13 +220,13 @@ body .barra-right .ctn-centro .cx-header header .h-bottom #adicionar a p{
 }
 
 /* Configurações do rodape */
-.ctn-footer2 footer div{
+.body-sect .ctn-footer2 footer div{
     height: 140px;
     border-top: solid 1px rgb(191, 186, 186);
     margin-top: 60px;
     padding-top: 50px;
     background-color: rgb(243, 241, 241);
 }
-.ctn-footer2 footer div p{
+.body-sect .ctn-footer2 footer div p{
     text-align: center;
 }
