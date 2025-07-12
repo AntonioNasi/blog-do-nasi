@@ -127,21 +127,24 @@ body .barra-right .ctn-centro .cx-header header .h-top .header-txt .h-txt-line3 
 /* Configurações parte de baixo do Header (destaques) */
 body .barra-right .ctn-centro .cx-header header .h-bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 190px;
     border-bottom: solid 1px rgb(206, 202, 202);
+}
+body .barra-right .ctn-centro .cx-header header .h-bottom .destaque{
+    margin-right: 60px;
 }
 body .barra-right .ctn-centro .cx-header header .h-bottom .destaque div{
     border: solid 1px red;
-    height: 60px;
-    width: 60px;
+    height: 75px;
+    width: 75px;
     border-radius: 100%;
     margin: 0 auto;
 }
 body .barra-right .ctn-centro .cx-header header .h-bottom .destaque div img{
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     border-radius: 100%;
     object-fit: cover;
     object-position: center;
@@ -149,6 +152,15 @@ body .barra-right .ctn-centro .cx-header header .h-bottom .destaque div img{
 body .barra-right .ctn-centro .cx-header header .h-bottom .destaque p{
     text-align: center;
     margin-top: 5px;
+}
+body .barra-right .ctn-centro .cx-header header .h-bottom #adicionar a{
+    text-decoration: none;
+    color: red;
+}
+body .barra-right .ctn-centro .cx-header header .h-bottom #adicionar a p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 18px;
 }
 
 /* Configurações das prévias do conteúdo */
