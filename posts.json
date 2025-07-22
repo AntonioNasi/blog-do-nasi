@@ -1,8 +1,8 @@
 [
-  { "file": "/posts/post1.html" },
-  { "file": "/posts/post2.html" },
-  { "file": "/posts/post3.html" },
-  { "file": "/posts/post4.html" },
-  { "file": "/posts/post5.html" },
-  { "file": "/posts/post6.html" }
+  { "file": "post1.html" },
+  { "file": "post2.html" },
+  { "file": "post3.html" },
+  { "file": "post4.html" },
+  { "file": "post5.html" },
+  { "file": "post6.html" }
 ]

@@ -1,6 +1,6 @@
 const categoriaDesejada = "lukacs";
 
-fetch('/js/posts.json')
+fetch('posts.json')
   .then(res => res.json())
   .then(postList => {
     const container = document.getElementById('posts-container');
